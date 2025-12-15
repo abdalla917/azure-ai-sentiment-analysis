@@ -1,19 +1,16 @@
-# Azure AI Sentiment Analysis (Demo)
+# Azure AI Sentiment Analysis (Demo + Optional Azure)
 
-A simple Python project that demonstrates sentiment analysis using a rule-based approach.
+A small Python project that demonstrates sentiment analysis.
+It runs in **demo mode** by default, and can optionally use **Azure AI Language (Text Analytics)** if credentials are provided.
 
 ## Features
-- Analyze text sentiment (positive, negative, neutral)
-- Demo mode without external APIs
-- Clean and simple Python structure
+- Sentiment analysis: `positive / neutral / negative`
+- Works out-of-the-box (demo mode)
+- Optional Azure integration via environment variables
 
-## Technologies
+## Tech Stack
 - Python 3
-- Virtual Environment (venv)
+- Azure AI Text Analytics SDK (optional)
+- Virtual environment (venv)
 
-## Example
-
-```bash
-Enter a sentence for sentiment analysis:
-This project is amazing
-Sentiment: positive (demo mode)
+## Project Structure
